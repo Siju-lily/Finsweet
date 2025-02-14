@@ -1,0 +1,44 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding-block: 30px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    border-right: 1px solid gray;
+}
+
+.navigation ul li{
+    padding-inline: 10px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+
+.assistant{
+    display: flex;
+}
+
+.assistant .text{
+    padding-inline: 10px;
+}
+
+.text{
+    display: flex;
+}
