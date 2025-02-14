@@ -6,7 +6,7 @@
 
 .container{
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     padding-block: 30px;
 }
 
@@ -19,7 +19,8 @@
 .navigation ul{
     list-style: none;
     display: flex;
-    border-right: 1px solid gray;
+    justify-content: space-between;
+    border-right: 2px solid gray;
 }
 
 .navigation ul li{
@@ -39,6 +40,29 @@
     padding-inline: 10px;
 }
 
-.text{
+/* .hero-section, 
+.hero-area {
+    width: 100%;
+} */
+.hero-area{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-area  h1 {
+    font-size:60px;
+}
+
+.text-area{
+    max-width: 45%;
+}
+
+.image-area {
+    max-width: 55%;
+}
+
+.image-area img {
+    width: 100%;
+    height: 400px;
 }
